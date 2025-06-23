@@ -1,0 +1,12 @@
+name: Ask a General Question
+description: Ask the organizers a question about Cloud Native Madison!
+title: "[Question]: "
+labels: [question]
+body:
+  - type: textarea
+    id: your_question
+    attributes:
+      label: What would you like to know?
+      placeholder: "Ask us anything — we’re here to help!"
+    validations:
+      required: true
