@@ -1,0 +1,38 @@
+name: Suggest an Event or Speaker
+description: Propose a talk, workshop, or other event idea for Cloud Native Madison!
+title: "[Event Idea]: "
+labels: [event-suggestion]
+body:
+  - type: dropdown
+    id: event_type
+    attributes:
+      label: What type of event?
+      options:
+        - Talk (30-45 min)
+        - Workshop (60-90 min)
+        - Panel Discussion
+        - Lightning Talk (5-10 min)
+        - Social or Networking
+        - Other
+  - type: input
+    id: suggested_topic
+    attributes:
+      label: Suggested Topic Title
+      placeholder: "e.g., Securing Kubernetes in Production"
+    validations:
+      required: true
+  - type: input
+    id: potential_speaker
+    attributes:
+      label: Potential Speaker (if known)
+      placeholder: "Name, GitHub handle, email, etc."
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is this topic valuable for the community?
+      placeholder: "Tell us why this would be a great addition!"
+  - type: textarea
+    id: links
+    attributes:
+      label: Related Links or Resources
+      placeholder: "Links to blog posts, GitHub repos, speaker slides, etc."
