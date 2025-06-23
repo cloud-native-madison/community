@@ -1,0 +1,26 @@
+name: Suggest a Sponsor
+description: Recommend a company or individual who could sponsor an upcoming event!
+title: "[Sponsor Idea]: "
+labels: [sponsorship]
+body:
+  - type: input
+    id: sponsor_name
+    attributes:
+      label: Sponsor Name
+      placeholder: "Company, Organization, or Individual"
+    validations:
+      required: true
+  - type: textarea
+    id: sponsor_contact
+    attributes:
+      label: Contact Info (if known)
+      placeholder: "Email, LinkedIn, website, etc."
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this be a good sponsor?
+      placeholder: "Community connections, great tech, active in CNCF, etc."
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any other notes
