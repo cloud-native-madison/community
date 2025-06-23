@@ -6,8 +6,9 @@ We’re a local community passionate about cloud native technologies — Kuberne
 
 ## How to Get Involved
 
-✅ Join our [Meetup page](#)  
-✅ Follow us on [LinkedIn](#)  
+✅ Join our [Meetup page](https://community.cncf.io/cloud-native-madison/)  
+✅ Follow us on [LinkedIn](https://www.linkedin.com/company/cloud-native-madison)  
+✅ Catch it all on our [Linktree](https://linktr.ee/cloud.native.madison)
 ✅ Come to an event — no experience required!  
 ✅ Interested in speaking? Open an issue or contact an organizer.
 
