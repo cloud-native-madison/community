@@ -15,7 +15,7 @@ We’re a local community passionate about cloud native technologies — Kuberne
 - Open to all skill levels
 - Friendly, welcoming, and respectful
 - Committed to diversity and inclusion
-- We follow the [CNCF Code of Conduct](./CODE_OF_CONDUCT.md)
+- We follow the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
 
 ## Repo Contents
 
